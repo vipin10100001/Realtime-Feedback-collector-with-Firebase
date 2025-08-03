@@ -1,0 +1,134 @@
+/* General reset and layout */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+  }
+  
+  /* Main container */
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .container h1 {
+    color: #3f51b5;
+    margin-bottom: 1rem;
+  }
+  
+  /* Auth buttons */
+  #signInBtn, #signOutBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #signOutBtn {
+    background-color: #db4437;
+  }
+  
+  #signInBtn:hover {
+    background-color: #3367d6;
+  }
+  
+  #signOutBtn:hover {
+    background-color: #c23321;
+  }
+  
+  /* Form styling */
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: none;
+    width: 100%;
+  }
+  
+  textarea {
+    min-height: 80px;
+  }
+  
+  form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Feedback list */
+  .feedback-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Individual feedback card */
+  .feedback {
+    background-color: #f9f9f9;
+    border-left: 6px solid #4caf50;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .feedback strong {
+    color: #333;
+  }
+  
+  .feedback .delete-btn {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: #e53935;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .feedback .delete-btn:hover {
+    color: #b71c1c;
+  }
+  
+  /* User info */
+  #userInfo {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  

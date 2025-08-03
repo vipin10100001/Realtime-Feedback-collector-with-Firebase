@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Realtime Feedback Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 Realtime Feedback Board</h1>
+
+    <div id="userInfo"></div>
+    <button id="signInBtn">Sign In with Google</button>
+    <button id="signOutBtn" style="display:none;">Sign Out</button>
+
+    <form id="feedbackForm" style="display:none;">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <textarea id="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+
+    <div id="feedbackList" class="feedback-container"></div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
