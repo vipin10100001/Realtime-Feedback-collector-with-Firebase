@@ -9,12 +9,12 @@ import { serverTimestamp } from "https://www.gstatic.com/firebasejs/12.0.0/fireb
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyChgZQXdLKbX6Jqef5lyGsx7Syu-KE5QZU",
+  apiKey: " ",
   authDomain: "realtime-feedback-board.firebaseapp.com",
   projectId: "realtime-feedback-board",
-  storageBucket: "realtime-feedback-board.appspot.com",
-  messagingSenderId: "90349531882",
-  appId: "1:90349531882:web:0c4bd383db8c7bb47e1d93"
+  storageBucket: " ",
+  messagingSenderId: " ",
+  appId: " "
 };
 
 // Initialize
