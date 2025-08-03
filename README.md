@@ -37,6 +37,8 @@ A lightweight web application that allows users to submit feedback in real-time 
    git clone https://github.com/yourusername/realtime-feedback-board.git
    cd realtime-feedback-board
 
+   '''
+
 
    Open index.html in your browser.
 
@@ -48,6 +50,8 @@ Install Firebase CLI (if not already):
 
  ```bash
 npm install -g firebase-tools
+
+'''
 
 ## Login to Firebase:
 
