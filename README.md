@@ -46,6 +46,7 @@ A lightweight web application that allows users to submit feedback in real-time 
 ## How to Deploy on Firebase
 Install Firebase CLI (if not already):
 
+ ```bash
 npm install -g firebase-tools
 
 ## Login to Firebase:
